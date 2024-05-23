@@ -1,4 +1,5 @@
-﻿//#region Virtual and Override Cache Örneği
+﻿
+//#region Virtual and Override Cache Örneği
 ////RedisCache redisCache = new RedisCache();
 ////redisCache.CreateCache();
 
@@ -90,7 +91,7 @@
 //        if(obj.GetType() != typeof(User)) return false;
 
 //        return user.Id == Id;  
-           
+
 //    }
 
 //    public static bool operator ==(User left , User right)
@@ -115,3 +116,11 @@
 //        return x + y;
 //    }
 //}
+public class Program
+{
+    static void Main(string[] args)
+    {
+        // Your code here
+        Console.WriteLine("Hello, World!");
+    }
+}
